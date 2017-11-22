@@ -4,8 +4,10 @@ $(document).ready(function(){
     var seconds = 0;
     var clicked = false;
     var timer = 0;
+    var interval = 0
     $("#start").on("click", function(){
         if(!clicked){
+            interval = minutes;
             timer = setInterval(myTimer, 1000);            
             $("#start").html("Stop");
             clicked = true;
@@ -21,6 +23,8 @@ $(document).ready(function(){
         if(minutes <=0 && seconds <= 0){                        
             $("#timer").css("font-size", "54px");            
             $("#timer").html("TIME UP");
+            $("#start").html("Reset")
+          //  debugger;
             toggle = false;
             
         }
@@ -39,6 +43,10 @@ $(document).ready(function(){
             }else{
                 $("#timer").html(minutes.toString()+":"+seconds.toString());
             }
+        }else{
+            minutes = interval;
+            clearInterval(timer);
+            clicked = false;
         }
 
     }
