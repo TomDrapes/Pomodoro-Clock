@@ -5,9 +5,9 @@ by Tom Drapes
 
 This program was written to fullfil the following user stories as specified by the [FCC curriculum](https://www.freecodecamp.org/challenges/build-a-pomodoro-clock).
 
-**User Story One:** I can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed.
-**User Story Two:** I can reset the clock for my next pomodoro.
-**User Story Three:** I can customize the length of each pomodoro.
+**User Story One:** I can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed.  
+**User Story Two:** I can reset the clock for my next pomodoro.  
+**User Story Three:** I can customize the length of each pomodoro.  
 
 ### Screenshot
 ![screen](https://github.com/doctorApes/Pomodoro-Clock/blob/myBranch/img/pomodoro_app.png)
