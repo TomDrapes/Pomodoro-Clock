@@ -14,5 +14,8 @@ This program was written to fullfil the following user stories as specified by t
 
 ### How to run
 This program allows the user to set a timer for any time between 1 and 60 minutes.
-To use the Pomodoro Clock simply download or clone this repository and open `index.html` in a browser.  
+To use the Pomodoro Clock simply download or clone this repository and open `index.html` in a browser. 
+
+### Contributions
+ Audio files found at [notificationsounds.com](https://notificationsounds.com/wake-up-tones/soft-bells-495) 
 

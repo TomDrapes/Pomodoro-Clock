@@ -20,7 +20,8 @@ $(document).ready(function(){
 
     function myTimer(){
         var toggle = true;
-        if(minutes <=0 && seconds <= 0){                        
+        if(minutes <=0 && seconds <= 0){
+            $("#alarm")[0].play();                   
             $("#timer").css("font-size", "54px");            
             $("#timer").html("TIME UP");
             $("#start").html("Reset")
