@@ -1,3 +1,24 @@
-h1{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
     text-align: center;
+}
+
+#container{
+    background-color: rgb(180, 57, 57);
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 10%;    
+    border-radius: 150px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    box-shadow: 10px 10px 15px rgb(80, 26, 26), 5px 5px 30px 20px rgb(158, 51, 51) inset;
+    
+}
+
+#timer{
+    height:44px;
+    
 }
