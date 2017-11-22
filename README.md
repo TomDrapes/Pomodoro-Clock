@@ -10,7 +10,7 @@ This program was written to fullfil the following user stories as specified by t
 **User Story Three:** I can customize the length of each pomodoro.
 
 ### Screenshot
-![screen](https://github.com/doctorApes/calculator/blob/master/img/Screen%20Shot%202017-11-21%20at%202.50.28%20PM.png)
+![screen](https://github.com/doctorApes/Pomodoro-Clock/blob/myBranch/img/pomodoro_app.png)
 
 ### How to run
 This program allows the user to set a timer for any time between 1 and 60 minutes.
